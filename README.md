@@ -19,6 +19,7 @@ A simple Python security automation tool that analyzes password strength and pro
 ## Installation
 
 No external dependencies required. Uses only Python standard library.
+
 requirements: Python 3.6 or higher
 
 ```bash
