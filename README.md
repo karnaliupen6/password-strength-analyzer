@@ -29,6 +29,7 @@ cd password-strength-analyzer
 
 ```bash
 python password_analyzer.py
+python 3.6 or higher
 ```
 
 Then enter a password when prompted.
