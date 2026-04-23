@@ -1,44 +1,43 @@
 # Password Strength Analyzer
 
-## What This Project Does
+## Project Description
 
-This small Python program checks how strong your password is and tells 
-you what you need to improve. It was built as part of a security 
-automation course to show how security checks can be written and run 
-automatically through code.
+A simple Python security automation tool that analyzes password strength and provides suggestions for improvement. This project demonstrates automated password security evaluation, a key component of security automation.
 
 ## Features
 
-- Checks your password against common security rules
-- Gives you a rating — Weak, Medium, or Strong
-- Lets you know exactly what is missing so you can fix it
-- Checks for:
-  - Minimum 8 characters
+- **Automated Password Checking:** Evaluates passwords against multiple security rules.
+- **Strength Rating:** Provides clear feedback (Weak, Medium, Strong).
+- **Improvement Suggestions:** Shows specific recommendations for strengthening weak passwords.
+- **Rule-Based Scoring:** Checks for:
+  - Minimum length (8+ characters)
   - Lowercase letters
   - Uppercase letters
   - Numbers
-  - Special characters like !@#$%
+  - Special characters (!@#$%^&*)
 
-## How to Install
+## Installation
 
-No extra libraries needed. Just Python.
+No external dependencies required. Uses only the Python standard library.
 
-Requirements: Python 3.6 or higher
+**Requirements:** Python 3.6 or higher
 
 ```bash
 git clone https://github.com/karnaliupen6/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
 
-## How to Run
+## Usage
 
 ```bash
 python password_analyzer.py
 ```
 
-Type a password when it asks you and press Enter.
+Then enter a password when prompted.
 
-## Example
+## Example Output
+
+```text
 ==================================================
 PASSWORD STRENGTH ANALYZER
 ==================================================
@@ -51,37 +50,39 @@ Score: 5/5 checks passed
 ==================================================
 
 Check Results:
-PASS - Length (8+ characters)
-PASS - Has lowercase letter
-PASS - Has uppercase letter
-PASS - Has number
-PASS - Has special character
+  PASS - Length (8+ characters)
+  PASS - Has lowercase letter
+  PASS - Has uppercase letter
+  PASS - Has number
+  PASS - Has special character
 
 Your password is strong!
 ==================================================
+```
 
+## Project Goals
 
-## What This Project Covers
+This project demonstrates:
 
-- Security automation using Python
-- Enforcing password security rules through code
-- Writing clean and well-commented Python scripts
-- Using GitHub to manage and share a project
+- Security automation principles
+- Automated security best practice enforcement
+- Python programming fundamentals
+- Clear code documentation and comments
 
-## Course Info
+## Course Information
 
-- Course: CYB 333 - Security Automation
-- Author: karnaliupen6
-- Status: Complete
+- **Course:** CYB 333 - Security Automation
+- **Author:** karnaliupen6
+- **Status:** Complete
 
-## Ideas for Future Updates
+## Future Improvements
 
-- Check if a password has appeared in a data breach
-- Add a simple visual interface using tkinter
-- Build a web version using Flask
-- Allow checking a whole list of passwords from a file
-- Connect it to a password manager
+- Check passwords against common breach databases
+- Add GUI interface with tkinter
+- Create a web-based version with Flask
+- Add support for checking multiple passwords from a file
+- Integrate with system password managers
 
 ## License
 
-Open source — built for educational purposes.
+Open source - for educational purposes.
