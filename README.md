@@ -6,9 +6,9 @@ A simple Python security automation tool that analyzes password strength and pro
 
 ## Features
 
-- **Automated Password Checking:** Evaluates passwords against multiple security rules.
-- **Strength Rating:** Provides clear feedback (Weak, Medium, Strong).
-- **Improvement Suggestions:** Shows specific recommendations for strengthening weak passwords.
+- **Automated Password Checking:** Evaluates passwords against multiple security rules
+- **Strength Rating:** Provides clear feedback (Weak, Medium, Strong)
+- **Improvement Suggestions:** Shows specific recommendations for strengthening weak passwords
 - **Rule-Based Scoring:** Checks for:
   - Minimum length (8+ characters)
   - Lowercase letters
