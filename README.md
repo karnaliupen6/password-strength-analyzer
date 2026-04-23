@@ -72,7 +72,7 @@ This project demonstrates:
 
 - **Course**: CYB 333 - Security Automation
 - **Author**: karnaliupen6
-- **Status**: In Development (Week 2-4 of April 2026)
+- **Status**: complete
 
 ## Future Improvements
 
