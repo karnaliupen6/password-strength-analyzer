@@ -22,6 +22,17 @@ This project is a simple Python security automation tool that analyzes password 
 - Shows detailed pass/fail results for each rule
 - Provides a final message based on password strength
 
+  ## Why These Five Rules?
+
+The reason I chose these five validation rules is that they are the most common password security guidelines in the industry:
+
+- **Length (8+ characters)** — Makes brute forcing harder by increasing the number of combinations that attackers have to try
+- **Mixed case (uppercase + lowercase)** — Boosts entropy and makes a password more complicated
+- **Numbers** — Adds numeric element, which decreases the effectiveness of dictionary attacks
+- **Special characters** — Make the password very strong, as they increase the character set to a large extent
+
+There are other ways, e.g., by checking a password's entropy or by matching it against a list of compromised passwords. Still, my rule-based approach was suitable for this automation project because it is deterministic, straightforward to test, and it makes it very clear to the users what their next step is.
+
 ## Requirements
 
 - Python 3.6 or higher
