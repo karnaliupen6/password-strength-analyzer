@@ -27,7 +27,8 @@ This project is a simple Python security automation tool that analyzes password 
 The reason I chose these five validation rules is that they are the most common password security guidelines in the industry:
 
 - **Length (8+ characters)** — Makes brute forcing harder by increasing the number of combinations that attackers have to try
-- **Mixed case (uppercase + lowercase)** — Boosts entropy and makes a password more complicated
+- **Lowercase letters** — Ensures basic character variety and is required by most password policies
+- **Uppercase letters** — Boosts entropy and makes the password more complicated
 - **Numbers** — Adds numeric element, which decreases the effectiveness of dictionary attacks
 - **Special characters** — Make the password very strong, as they increase the character set to a large extent
 
